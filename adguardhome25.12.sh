@@ -3,7 +3,7 @@ set -e
 
 REPO="w9315273/luci-app-adguardhome"
 # 在此处可自行更换或修改你的 GitHub 加速代理前缀
-GH_PROXY="https://ghproxy.net/"
+GH_PROXY="https://gh-proxy.org"
 
 LANGUAGE=${1:-en}
 case "$LANGUAGE" in
